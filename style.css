@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    width: 100%;
+}
+
+.prepTimeContainer{
+    background-color: hsl(330, 100%, 98%);
+}
+
+.prepTime{
+    color: hsl(332, 51%, 32%);
+}
