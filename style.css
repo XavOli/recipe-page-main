@@ -25,19 +25,24 @@ html,body{
     background-color: hsl(330, 100%, 98%);
 }
 
-.prepTime{
-    color: hsl(332, 51%, 32%);
-    font-size: 1.2rem;
-}
-
 .sectionHeader, li::marker, .customTd{
     color: hsl(14, 45%, 36%) !important;
 }
 
-li::marker{
+.prepTime, .prepList li::marker{
+    color: hsl(332, 51%, 32%) !important;
+    font-size: 1.2rem;
+}
+
+
+
+ol>li::marker, .customTd{
     font-weight: bold;
 }
 
+ul>li::marker{
+    font-size:0.5rem;
+}
 ol { 
     padding-left:0; 
     list-style-position:inside; 
@@ -45,10 +50,6 @@ ol {
 
 th{
     font-weight: 400;
-}
-
-.customTd{
-    font-weight: bold;
 }
 
 @media (max-width:800px) {
