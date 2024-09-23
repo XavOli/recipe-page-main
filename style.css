@@ -27,6 +27,7 @@ html,body{
 
 .prepTime{
     color: hsl(332, 51%, 32%);
+    font-size: 1.2rem;
 }
 
 .sectionHeader, li::marker, .customTd{
