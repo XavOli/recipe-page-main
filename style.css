@@ -27,3 +27,11 @@ html,body{
 div {
     padding: 2% 2%;
 }
+@media (max-width:900px) {
+    .card{
+        position:absolute;
+        top:0;
+        left:0;
+        width: 100vw;
+    }
+}
