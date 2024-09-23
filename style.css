@@ -12,15 +12,14 @@ html,body{
 }
 
 .card-title{
-    font-family: 'Young';
-    font-weight: 800;
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
     color: hsl(24, 5%, 18%);
 }
-.card-body{
-    font-family: 'Outfit';
-    font-size:80%;
-    font-weight: 400;
-    color: hsl(30, 10%, 34%);
+.card-body, th{
+    font-family: 'Outfit', sans-serif !important;
+    font-size:85%;
+    color: hsl(30, 10%, 34%) !important;
 }
 .prepTimeContainer{
     background-color: hsl(330, 100%, 98%);
@@ -30,11 +29,24 @@ html,body{
     color: hsl(332, 51%, 32%);
 }
 
-.sectionHeader, li::marker{
-    color: hsl(14, 45%, 36%);
+.sectionHeader, li::marker, .customTd{
+    color: hsl(14, 45%, 36%) !important;
 }
 
 li::marker{
+    font-weight: bold;
+}
+
+ol { 
+    padding-left:0; 
+    list-style-position:inside; 
+}
+
+th{
+    font-weight: 400;
+}
+
+.customTd{
     font-weight: bold;
 }
 
