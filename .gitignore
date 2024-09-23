@@ -1,0 +1,35 @@
+# Avoid accidental upload of the Sketch and Figma design files
+#####################################################
+## Please do not remove lines 5 and 6 - thanks! 🙂 ##
+#####################################################
+*.sketch
+*.fig
+
+# Avoid accidental XD upload if you convert the design file
+###############################################
+## Please do not remove line 12 - thanks! 🙂 ##
+###############################################
+*.xd
+
+# Avoid your project being littered with annoying .DS_Store files!
+.DS_Store
+.prettierignore
+README-template.md
+preview.jpg
+style-guide.md
+assets/fonts/outfit/OFL.txt
+assets/fonts/outfit/Outfit-VariableFont_wght.ttf
+assets/fonts/outfit/README.txt
+assets/fonts/outfit/static/Outfit-Black.ttf
+assets/fonts/outfit/static/Outfit-Bold.ttf
+assets/fonts/outfit/static/Outfit-ExtraBold.ttf
+assets/fonts/outfit/static/Outfit-ExtraLight.ttf
+assets/fonts/outfit/static/Outfit-Light.ttf
+assets/fonts/outfit/static/Outfit-Medium.ttf
+assets/fonts/outfit/static/Outfit-Regular.ttf
+assets/fonts/outfit/static/Outfit-SemiBold.ttf
+assets/fonts/outfit/static/Outfit-Thin.ttf
+assets/fonts/young-serif/OFL.txt
+assets/fonts/young-serif/YoungSerif-Regular.ttf
+design/desktop-design.jpg
+design/mobile-design.jpg
