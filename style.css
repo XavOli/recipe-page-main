@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 *{
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
@@ -12,9 +11,6 @@ html,body{
     background-color: hsl(30, 54%, 90%);
 }
 
-.foodImg, .card{
-    border-radius: 15px;
-}
 
 .prepTimeContainer{
     background-color: hsl(330, 100%, 98%);
@@ -28,9 +24,6 @@ html,body{
     color: hsl(14, 45%, 36%);
 }
 
-div {
-    padding: 2% 2%;
-}
 @media (max-width:800px) {
     .card{
         border-radius: 0;
