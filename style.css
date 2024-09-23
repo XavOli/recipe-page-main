@@ -9,6 +9,7 @@
 
 html,body{
     width: 100%;
+    background-color: hsl(30, 54%, 90%);
 }
 
 .prepTimeContainer{
@@ -17,4 +18,12 @@ html,body{
 
 .prepTime{
     color: hsl(332, 51%, 32%);
+}
+
+.sectionHeader{
+    color: hsl(14, 45%, 36%);
+}
+
+div {
+    padding: 2% 0;
 }
