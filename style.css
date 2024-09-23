@@ -12,6 +12,10 @@ html,body{
     background-color: hsl(30, 54%, 90%);
 }
 
+.foodImg, .card{
+    border-radius: 15px;
+}
+
 .prepTimeContainer{
     background-color: hsl(330, 100%, 98%);
 }
@@ -27,7 +31,7 @@ html,body{
 div {
     padding: 2% 2%;
 }
-@media (max-width:900px) {
+@media (max-width:768px) {
     .card{
         position:absolute;
         top:0;
