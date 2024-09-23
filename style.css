@@ -7,7 +7,6 @@
 }
 
 html,body{
-
     width: 100%;
     background-color: hsl(30, 54%, 90%);
 }
@@ -53,12 +52,24 @@ th{
     font-weight: 400;
 }
 
-@media (max-width:800px) {
+@media (max-width:600px) {
     .card{
         border-radius: 0;
         position:absolute;
         top:0;
         left:0;
         width: 100vw;
+    }
+}
+
+@media (min-width:1200px) {
+    .card-title{
+        font-size: 3rem;
+    }
+    .card-body, th, .prepTime{
+        font-size: 1.5rem;
+    }
+    ul>li::marker{
+        font-size:1rem;
     }
 }
